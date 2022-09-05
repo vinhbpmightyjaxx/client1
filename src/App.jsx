@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 // components
 import NavBar from './components/NavBar';
@@ -9,17 +9,17 @@ import Resources from './components/Resources';
 
 export default function App() {
   return (
-  <div>
-    <BrowserRouter>
-      <NavBar/>
+    <div>
+      <BrowserRouter>
+        <NavBar />
 
-      <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/resource' element={<Resources/>}/>
-      </Routes>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/resource' element={<Resources />} />
+        </Routes>
 
-      <Footer/>
-    </BrowserRouter>
-  </div>
+        {/* <Footer/> */}
+      </BrowserRouter>
+    </div>
   )
 }

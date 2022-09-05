@@ -1,8 +1,8 @@
 {
-  "realm": "myRealmDemo",
-  "auth-server-url": "http://localhost:8080/auth/",
+  "realm": "cmc-corp",
+  "auth-server-url": "http://localhost:8080/",
   "ssl-required": "external",
-  "resource": "react-client",
+  "resource": "react-auth-client1",
   "public-client": true,
   "confidential-port": 0
 }
